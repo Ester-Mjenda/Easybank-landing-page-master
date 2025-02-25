@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  font-family: "Public Sans";
+  font-size: small;
+  line-height: 1.2;
+  color: hsl(233, 26%, 24%) hsl(233, 26%, 24%) hsl(136, 65%, 51%)
+    hsl(192, 70%, 51%) hsl(233, 8%, 62%) hsl(220, 16%, 96%) hsl(0, 0%, 98%)
+    hsl(0, 0%, 100%);
+}
+a {
+  color: hsl(233, 8%, 62%);
+}
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 15px;
+}
+header img {
+  height: 18px;
+  margin-top: 5px;
+}
+.nav-links {
+  margin-top: 5px;
+}
+.nav-links a {
+  padding-left: 10px;
+}
+.link {
+  border-radius: 30px;
+  padding: 12px 25px;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+}
+.link a {
+  color: hsl(0, 0%, 98%);
+}
+
+/* main section */
+.section-1 {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  width: 100%;
+}
+.section-1 .flex-left {
+  padding: 30px;
+  margin: 90px 0 90px 8%;
+  width: 35%;
+}
+.flex-left h1 {
+  font-size: 47px;
+  font-weight: 300;
+}
+.text {
+  padding: 20px 0px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: hsl(233, 8%, 62%);
+}
+.flex-left .link {
+  width: 40%;
+  text-align: center;
+  padding: 12px;
+}
+.section-1 .flex-right {
+  width: 49%;
+  position: absolute;
+}
+.back-image {
+  height: 740px;
+  margin-top: -30%;
+  position: absolute;
+  right: -153%;
+  clip-path: inset(25% 10% 0 0);
+}
+.top-image {
+  margin-top: -17.3%;
+  position: absolute;
+  height: 710px;
+  right: -119%;
+  clip-path: inset(15% 6% 0 0);
+}
+.section-2 {
+  background-color: hsl(220, 16%, 96%);
+}
+.section-2 h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.section-3 {
+  background-color: hsl(0, 0%, 98%);
+}
